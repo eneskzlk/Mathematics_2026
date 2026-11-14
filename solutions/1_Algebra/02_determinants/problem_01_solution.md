@@ -1,9 +1,15 @@
 # Exercise 1 — Determinants
 
-For a $2\times2$ matrix, $\det\begin{pmatrix}
+For a $2\times2$ matrix, 
+
+$$
+\det\begin{pmatrix}
 a&b \\
 c&d \\
-\end{pmatrix}=ad-bc$. Therefore
+\end{pmatrix}=ad-bc.
+$$
+
+ Therefore
 
 $$
 \det\begin{pmatrix}

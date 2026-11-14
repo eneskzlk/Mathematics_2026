@@ -4,12 +4,12 @@ A product entry is the dot product of a row of the first matrix with a column of
 
 $$
 AB=\begin{pmatrix}
-1(2)+2(3)&1(0)+2(1)\\
-0(2)+1(3)&0(0)+1(1)\\
+1(2)+2(3)&1(0)+2(1) \\
+0(2)+1(3)&0(0)+1(1) \\
 \end{pmatrix}
 =\begin{pmatrix}
-8&2\\
-3&1\\
+8&2 \\
+3&1 \\
 \end{pmatrix}.
 $$
 
@@ -17,12 +17,12 @@ Reversing the order gives
 
 $$
 BA=\begin{pmatrix}
-2(1)+0(0)&2(2)+0(1)\\
-3(1)+1(0)&3(2)+1(1)\\
+2(1)+0(0)&2(2)+0(1) \\
+3(1)+1(0)&3(2)+1(1) \\
 \end{pmatrix}
 =\begin{pmatrix}
-2&4\\
-3&7\\
+2&4 \\
+3&7 \\
 \end{pmatrix}.
 $$
 

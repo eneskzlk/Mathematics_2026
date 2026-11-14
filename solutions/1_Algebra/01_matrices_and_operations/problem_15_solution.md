@@ -3,21 +3,30 @@
 First calculate
 
 $$
-AB=\begin{pmatrix}5&2\\1&4\\\end{pmatrix},
+AB=\begin{pmatrix}
+5&2 \\
+1&4 \\
+\end{pmatrix},
 \qquad
-(AB)C=\begin{pmatrix}10&3\\2&-3\\\end{pmatrix}.
+(AB)C=\begin{pmatrix}
+10&3 \\
+2&-3 \\
+\end{pmatrix}.
 $$
 
 For the alternative grouping,
 
 $$
 BC=\begin{pmatrix}
-2&1\\
-4&1\\
--2&-4\\
+2&1 \\
+4&1 \\
+-2&-4 \\
 \end{pmatrix},
 \qquad
-A(BC)=\begin{pmatrix}10&3\\2&-3\\\end{pmatrix}.
+A(BC)=\begin{pmatrix}
+10&3 \\
+2&-3 \\
+\end{pmatrix}.
 $$
 
 Thus $(AB)C=A(BC)$, which illustrates associativity: changing parentheses does not change the product, provided the order of factors stays the same.

@@ -4,13 +4,13 @@ Direct multiplication gives
 
 $$
 AB=\begin{pmatrix}
-a+c&b+d\\
-c&d\\
+a+c&b+d \\
+c&d \\
 \end{pmatrix},
 \qquad
 BA=\begin{pmatrix}
-a&a+b\\
-c&c+d\\
+a&a+b \\
+c&c+d \\
 \end{pmatrix}.
 $$
 
@@ -20,8 +20,8 @@ Thus all commuting matrices have the form
 
 $$
 B=\begin{pmatrix}
-a&b\\
-0&a\\
+a&b \\
+0&a \\
 \end{pmatrix},
 $$
 

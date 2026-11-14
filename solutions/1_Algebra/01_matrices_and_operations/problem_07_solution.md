@@ -4,23 +4,32 @@ The $2\times2$ identity matrix $I$ leaves any compatible matrix unchanged under 
 
 $$
 AI=IA=A+0=\begin{pmatrix}
-2&1\\
-0&2\\
+2&1 \\
+0&2 \\
 \end{pmatrix}.
 $$
 
 Successive products are
 
 $$
-A^2=\begin{pmatrix}4&4\\0&4\\\end{pmatrix},
+A^2=\begin{pmatrix}
+4&4 \\
+0&4 \\
+\end{pmatrix},
 \qquad
-A^3=A^2A=\begin{pmatrix}8&12\\0&8\\\end{pmatrix}.
+A^3=A^2A=\begin{pmatrix}
+8&12 \\
+0&8 \\
+\end{pmatrix}.
 $$
 
 The pattern is
 
 $$
-A^n=\begin{pmatrix}2^n&n\,2^{n-1}\\0&2^n\\\end{pmatrix}
+A^n=\begin{pmatrix}
+2^n&n\,2^{n-1} \\
+0&2^n \\
+\end{pmatrix}
 \quad (n\ge1).
 $$
 

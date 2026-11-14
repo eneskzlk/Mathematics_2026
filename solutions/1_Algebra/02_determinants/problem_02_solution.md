@@ -1,0 +1,27 @@
+# Exercise 2 — Determinants
+
+For the matrix
+
+$$
+A=\begin{pmatrix}
+1&2&-1\\
+0&3&4\\
+2&1&5\\
+\end{pmatrix},
+$$
+
+Sarrus' rule sums the three forward diagonal products and subtracts the three backward products:
+
+$$
+\det A=(1\cdot3\cdot5+2\cdot4\cdot2+(-1)\cdot0\cdot1)
+-((-1)\cdot3\cdot2+1\cdot4\cdot1+2\cdot0\cdot5)
+=31-(-2)=33.
+$$
+
+Check by first-row cofactor expansion:
+
+$$
+1(15-4)-2(0-8)+(-1)(0-6)=11+16+6=33.
+$$
+
+Both calculations give the same determinant.

@@ -6,7 +6,12 @@ Compute $\int(2\sqrt{x}+3/x^2-x^{1/3})\,dx$, first rewriting powers and determin
 
 The integrand can be written as
 
-$$2x^{1/2}+3x^{-2}-x^{1/3}.$$
+
+$$
+2x^{1/2}+3x^{-2}-x^{1/3}.
+$$
+
+
 
 The square root requires $x\geq0$, while the term $3/x^2$ requires $x\ne0$. Their intersection is therefore $x>0$, which is the domain of the original expression.
 

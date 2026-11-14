@@ -11,4 +11,7 @@ $$\int(2e^x+3\cos x-4\sin x)\,dx
 
 The sign in the last term is positive because differentiating $4\cos x$ produces $-4\sin x$. Differentiating the whole result checks it at once:
 
-$$(2e^x+3\sin x+4\cos x+C)'=2e^x+3\cos x-4\sin x.$$
+
+$$
+(2e^x+3\sin x+4\cos x+C)'=2e^x+3\cos x-4\sin x.
+$$

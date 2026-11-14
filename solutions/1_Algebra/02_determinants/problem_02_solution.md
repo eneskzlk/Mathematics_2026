@@ -4,9 +4,9 @@ For the matrix
 
 $$
 A=\begin{pmatrix}
-1&2&-1\\
-0&3&4\\
-2&1&5\\
+1&2&-1 \\
+0&3&4 \\
+2&1&5 \\
 \end{pmatrix},
 $$
 

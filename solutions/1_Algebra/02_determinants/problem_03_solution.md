@@ -12,9 +12,9 @@ To verify directly, the swapped matrix is
 
 $$
 B=\begin{pmatrix}
-0&3&1\\
-1&2&0\\
-2&1&1\\
+0&3&1 \\
+1&2&0 \\
+2&1&1 \\
 \end{pmatrix}.
 $$
 

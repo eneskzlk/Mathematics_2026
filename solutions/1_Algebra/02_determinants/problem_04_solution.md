@@ -4,9 +4,9 @@ The matrix is upper triangular; every entry below the main diagonal is zero. A t
 
 $$
 \det\begin{pmatrix}
-2&4&1\\
-0&-3&5\\
-0&0&7\\
+2&4&1 \\
+0&-3&5 \\
+0&0&7 \\
 \end{pmatrix}
 =2(-3)(7)=-42.
 $$

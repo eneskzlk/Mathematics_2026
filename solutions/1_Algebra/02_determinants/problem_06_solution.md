@@ -3,7 +3,10 @@
 A square matrix is noninvertible exactly when its determinant is zero:
 
 $$
-\det A(t)=\det\begin{pmatrix}t&1\\2&t\\\end{pmatrix}
+\det A(t)=\det\begin{pmatrix}
+t&1 \\
+2&t \\
+\end{pmatrix}
 =t^2-2.
 $$
 

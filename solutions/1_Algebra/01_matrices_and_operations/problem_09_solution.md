@@ -59,4 +59,4 @@ SRx=S(Rx)=\begin{pmatrix}
 \end{pmatrix}.
 $$
 
-The results differ: $(-2,2)^T\ne(-4,1)^T$. A nonuniform scaling emphasizes the original horizontal axis; rotating before rather than after scaling changes which geometric direction receives that enlargement.
+The results differ: $(-2,2)^T\ne(-4,1)^T$. The scaling always doubles the horizontal coordinate at the moment it is applied. In $RSx$, the original horizontal component is doubled and then rotated onto the vertical axis. In $SRx$, the rotation first takes the original vertical component onto the horizontal axis, where it is doubled.

@@ -62,4 +62,4 @@ $$
 
 Therefore $y=9/5$ and $x=8-3(9/5)=13/5$.
 
-Both methods agree. Check: $2(13/5)+9/5=7$ and $13/5+3(9/5)=8$. Gaussian elimination needs one row swap, one elimination, and back-substitution; it is shorter for this one system, while an already-computed inverse is reusable for many right-hand sides.
+Both methods agree. Check: $2(13/5)+9/5=7$ and $13/5+3(9/5)=8$. Gaussian elimination uses a row swap, one elimination, and back-substitution. The inverse method requires computing the determinant, forming and scaling the adjugate, then multiplying by the right-hand side. For this single right-hand side, elimination is simpler because the row swap puts a $1$ in the first pivot position and only one elimination is needed.

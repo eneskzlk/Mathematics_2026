@@ -55,4 +55,4 @@ A^n=\begin{pmatrix}
 \quad (n\ge1).
 $$
 
-It holds because $A=2I+N$, $N^2=0$, so the binomial expansion leaves $2^nI+n2^{n-1}N$. Checking $n=2$ and $n=3$ reproduces the computed powers.
+Set $N=A-2I$. The only nonzero entry of $N$ is a $1$ in position $(1,2)$, so $N^2=0$. Since $2I$ commutes with $N$, the binomial expansion of $(2I+N)^n$ reduces to $2^nI+n2^{n-1}N$. Checking $n=2$ and $n=3$ reproduces the computed powers.

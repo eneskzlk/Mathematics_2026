@@ -61,4 +61,14 @@ A^{-1}=\begin{pmatrix}
 \end{pmatrix}.
 $$
 
-Each row operation multiplies both halves by the same elementary matrix. Once the left half becomes $I$, the right half is $A^{-1}$. Direct check: $AA^{-1}=I_2$.
+Let $E$ be the product of the elementary matrices for the row operations. Applying these operations to $[A\mid I]$ gives $[EA\mid E]$. When $EA=I$, the right block $E$ is the inverse of the square matrix $A$.
+
+Multiplication verifies the result.
+
+$$
+AA^{-1}=\begin{pmatrix}
+-5+6 & 2-2 \\
+-15+15 & 6-5 \\
+\end{pmatrix}
+=I_2.
+$$

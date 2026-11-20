@@ -56,4 +56,15 @@ $$
 
 Thus $(AB)C=A(BC)$, which illustrates associativity: changing parentheses does not change the product, provided the order of factors stays the same.
 
-Using the ordinary row-column method, computing $AB$ takes $4\cdot3=12$ scalar multiplications and then $(AB)C$ takes $4\cdot2=8$, totaling $20$. Computing $BC$ takes $6\cdot2=12$ and $A(BC)$ takes $4\cdot3=12$, totaling $24$. So different parenthesizations can have different computational costs even with identical results.
+In the ordinary row–column method, each output entry is a dot product of length $k$ and takes $k$ scalar multiplications and $k-1$ additions. Counting every entry gives the following costs.
+
+| Product | Multiplications | Additions |
+| --- | ---: | ---: |
+| $AB$ | 12 | 8 |
+| $(AB)C$ | 8 | 4 |
+| **Total for $(AB)C$** | **20** | **12** |
+| $BC$ | 12 | 6 |
+| $A(BC)$ | 12 | 8 |
+| **Total for $A(BC)$** | **24** | **14** |
+
+Thus $(AB)C$ uses $32$ scalar operations and $A(BC)$ uses $38$ by this counting convention.

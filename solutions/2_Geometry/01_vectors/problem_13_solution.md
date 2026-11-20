@@ -40,4 +40,4 @@ $$
 
 
 
-Since this value is zero, $\overrightarrow{AD}$ is perpendicular to the normal, so $D$ lies in the plane through $A,B,C$. The criterion is that a displacement within the plane must have zero dot product with its normal.
+Since $n\ne0$, the vectors $\overrightarrow{AB}$ and $\overrightarrow{AC}$ are independent. They span the two-dimensional space of vectors orthogonal to $n$. Therefore a point $D$ lies in the plane through $A,B,C$ exactly when $\overrightarrow{AD}\cdot n=0$. The computed zero confirms that the four points are coplanar.

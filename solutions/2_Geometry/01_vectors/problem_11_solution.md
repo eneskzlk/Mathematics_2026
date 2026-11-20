@@ -46,4 +46,4 @@ $$
 
 
 
-Reconstruction checks that no component of $u$ was lost; the dot product separately checks that the residual has the required perpendicular direction. Either condition alone would not establish both facts.
+The computed $u_{\parallel}$ is a scalar multiple of $v$. Even with that restriction, the two checks test different properties. Taking the candidate pair $(0,u)$ satisfies reconstruction but fails the dot-product check because $u\cdot v=11$. Taking the candidate pair $(0,0)$ passes the dot-product check but fails reconstruction because $u\ne0$.

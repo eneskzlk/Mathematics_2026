@@ -1,6 +1,11 @@
 ## Question
 
-For $A=(1,2,3)$ and $B=(4,-2,6)$, construct $\overrightarrow{AB}$, compute its length and the point distance, and explain why the results agree.
+The points are $A=(1,2,3)$ and $B=(4,-2,6)$.
+
+1. Construct $\overrightarrow{AB}$.
+2. Compute its length.
+3. Compute the distance between the points using the coordinate formula.
+4. Explain why both calculations give the same result.
 
 ## Solution
 

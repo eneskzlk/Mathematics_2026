@@ -1,5 +1,31 @@
 # Exercise 2 — Matrices and Basic Operations
 
+## Question
+
+For
+
+$$
+A=
+\begin{pmatrix}
+1 & 2 \\
+-1 & 3 \\
+\end{pmatrix},\qquad B=
+\begin{pmatrix}
+4 & -2 \\
+0 & 5 \\
+\end{pmatrix}
+$$
+
+compute
+
+$$
+A+B,\qquad A-B,\qquad 3A-2B.
+$$
+
+Explain why matrix addition is possible only for matrices of the same size.
+
+## Solution
+
 Addition and subtraction are carried out entry by entry:
 
 $$

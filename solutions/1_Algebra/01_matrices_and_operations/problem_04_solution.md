@@ -1,5 +1,25 @@
 # Exercise 4 — Matrices and Basic Operations
 
+## Question
+
+For
+
+$$
+A=
+\begin{pmatrix}
+1 & 2 \\
+0 & 1 \\
+\end{pmatrix},\qquad B=
+\begin{pmatrix}
+2 & 0 \\
+3 & 1 \\
+\end{pmatrix}
+$$
+
+compute $AB$ and $BA$. Is $AB=BA$? Use this example to explain what noncommutativity of matrix multiplication means.
+
+## Solution
+
 A product entry is the dot product of a row of the first matrix with a column of the second:
 
 $$

@@ -1,6 +1,26 @@
 # Exercise 1 — Determinants
 
-For a $2\times2$ matrix, 
+## Question
+
+Compute
+
+$$
+\det
+\begin{pmatrix}
+3 & -2 \\
+5 & 4 \\
+\end{pmatrix},\qquad \det
+\begin{pmatrix}
+1 & 7 \\
+2 & 14 \\
+\end{pmatrix}.
+$$
+
+Which matrix is invertible? Justify your answer.
+
+## Solution
+
+For a $2\times2$ matrix, the determinant is given by the following formula.
 
 $$
 \det\begin{pmatrix}
@@ -9,7 +29,7 @@ c&d \\
 \end{pmatrix}=ad-bc.
 $$
 
- Therefore
+Applying the formula to both matrices gives the following values.
 
 $$
 \det\begin{pmatrix}

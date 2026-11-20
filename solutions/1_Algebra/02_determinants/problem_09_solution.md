@@ -1,5 +1,25 @@
 # Exercise 9 — Determinants
 
+## Question
+
+The vectors
+
+$$
+u=
+\begin{pmatrix}
+3 \\
+1 \\
+\end{pmatrix},\qquad v=
+\begin{pmatrix}
+1 \\
+4 \\
+\end{pmatrix}
+$$
+
+span a parallelogram. Compute its area using a determinant. Then reverse the order of the vectors and explain what changes in the determinant and what does not change in the area.
+
+## Solution
+
 The vectors $u=(3,1)^T$ and $v=(1,4)^T$ form columns of a $2\times2$ matrix. The parallelogram area is the absolute value of its determinant:
 
 $$

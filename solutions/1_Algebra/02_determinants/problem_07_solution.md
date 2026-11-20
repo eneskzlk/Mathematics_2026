@@ -1,5 +1,17 @@
 # Exercise 7 — Determinants
 
+## Question
+
+Suppose that for a $3\times3$ matrix, $\det A=-4$. Compute
+
+$$
+\det(2A),\qquad \det(A^T),\qquad \det(A^2),\qquad \det(-A).
+$$
+
+Justify each answer using the appropriate property.
+
+## Solution
+
 For a $3\times3$ matrix and scalar $k$, $\det(kA)=k^3\det A$. Also, determinants are unchanged by transpose, multiplicative under products, and satisfy $\det(-A)=(-1)^3\det A$.
 
 Given $\det A=-4$:

@@ -1,5 +1,22 @@
 # Exercise 2 — Determinants
 
+## Question
+
+For
+
+$$
+A=
+\begin{pmatrix}
+1 & 2 & -1 \\
+0 & 3 & 4 \\
+2 & 1 & 5 \\
+\end{pmatrix}
+$$
+
+compute $\det A$ using Sarrus' rule. Then perform one simple check using a chosen property of the determinant.
+
+## Solution
+
 For the matrix
 
 $$
@@ -18,10 +35,8 @@ $$
 =31-(-2)=33.
 $$
 
-Check by first-row cofactor expansion:
+To check the result, apply $R_3\leftarrow R_3-2R_1$. Adding a multiple of one row to another preserves the determinant. The third row becomes $(0,-3,7)$, so expansion along the first column has only one nonzero term.
 
 $$
-1(15-4)-2(0-8)+(-1)(0-6)=11+16+6=33.
+\det A=1\bigl(3\cdot7-4(-3)\bigr)=33.
 $$
-
-Both calculations give the same determinant.

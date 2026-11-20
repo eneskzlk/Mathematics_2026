@@ -1,5 +1,27 @@
 # Exercise 7 — Matrices and Basic Operations
 
+## Question
+
+For
+
+$$
+A=
+\begin{pmatrix}
+2 & 1 \\
+0 & 2 \\
+\end{pmatrix}
+$$
+
+compute
+
+$$
+AI,\qquad IA,\qquad A+0,\qquad A^2,\qquad A^3.
+$$
+
+Explain the roles of the matrices $I$ and $0$, and describe the pattern you observe in successive powers of $A$.
+
+## Solution
+
 The $2\times2$ identity matrix $I$ leaves any compatible matrix unchanged under multiplication; the zero matrix $0$ leaves it unchanged under addition:
 
 $$

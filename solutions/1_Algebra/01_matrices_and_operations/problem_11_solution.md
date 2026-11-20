@@ -1,5 +1,25 @@
 # Exercise 11 — Matrices and Basic Operations
 
+## Question
+
+Given
+
+$$
+A=
+\begin{pmatrix}
+1 & 1 \\
+0 & 1 \\
+\end{pmatrix},\qquad B=
+\begin{pmatrix}
+a & b \\
+c & d \\
+\end{pmatrix}.
+$$
+
+Find the conditions on $a,b,c,d$ under which $AB=BA$. Describe the general form of all such matrices $B$.
+
+## Solution
+
 Direct multiplication gives
 
 $$

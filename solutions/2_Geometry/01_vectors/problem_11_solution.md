@@ -1,6 +1,12 @@
 ## Question
 
-Decompose $u=(3,4)$ into components parallel and perpendicular to $v=(1,2)$, perform both requested checks, and explain why they are independent.
+Decompose $u=(3,4)$ into components parallel and perpendicular to $v=(1,2)$. Check
+
+$$
+u=u_{\parallel}+u_{\perp},\qquad u_{\perp}\cdot v=0.
+$$
+
+Explain why these are two independent checks of correctness.
 
 ## Solution
 

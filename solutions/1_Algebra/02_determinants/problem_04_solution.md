@@ -1,5 +1,22 @@
 # Exercise 4 — Determinants
 
+## Question
+
+Without expanding the determinant, compute
+
+$$
+\det
+\begin{pmatrix}
+2 & 4 & 1 \\
+0 & -3 & 5 \\
+0 & 0 & 7 \\
+\end{pmatrix}.
+$$
+
+State the rule for an arbitrary triangular matrix and explain it using this example.
+
+## Solution
+
 The matrix is upper triangular; every entry below the main diagonal is zero. A triangular matrix has determinant equal to the product of its diagonal entries. Hence
 
 $$

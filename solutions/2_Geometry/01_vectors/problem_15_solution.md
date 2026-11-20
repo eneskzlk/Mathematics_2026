@@ -1,6 +1,18 @@
 ## Question
 
-For $a=(1,2,1)$, $b=(2,4,2)$, and $c=(2,0,3)$, compute the cosine for every pair, order the pairwise angles, and explain the value for $a,b$.
+Given
+
+$$
+a=(1,2,1),\qquad b=(2,4,2),\qquad c=(2,0,3).
+$$
+
+For each pair, compute
+
+$$
+\frac{u\cdot v}{\|u\|\,\|v\|}.
+$$
+
+Order the pairs by increasing angle between the vectors. Explain why for $a$ and $b$ the value is $1$ even though the vectors have different lengths.
 
 ## Solution
 
